@@ -1,0 +1,76 @@
+/* Custom CSS */
+
+/* Flex Section */
+.custom-section {
+    padding: 50px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+/* Photo Gallery */
+#photo-gallery.custom-section .col-md-4 {
+    max-width: calc(50.33% - 20px); /* Set maximum width for each column */
+}
+
+#photo-gallery.custom-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Card Section */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer-links {
+    color: white;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    /* Other styling */
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    background-color: blue;
+}
+
+#flex-section.custom-section img {
+    width: 100%;
+    height: auto;
+}
+
+#photo-gallery.custom-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.footer-bg {
+    background-color: #F8F9FA;
+}
+h5{
+    color: black;
+}
